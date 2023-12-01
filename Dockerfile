@@ -4,13 +4,13 @@ LABEL authors="OleksiyM"
 
 ENV APP /chatbot
 
-ENV POETRY_HOME=$APP/.poetry 
+#ENV POETRY_HOME=$APP/.poetry
 
 WORKDIR $APP
 
-COPY pyproject.toml $APP/pyproject.toml
+#COPY pyproject.toml $APP/pyproject.toml
 
-COPY poetry.lock $APP/poetry.lock
+#COPY poetry.lock $APP/poetry.lock
 
 COPY . .
 
