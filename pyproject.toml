@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "This is a simple chatbot app that allows you to manage your contacts, notes, and search for information."
+authors = ["OleksiyM <oleksiymaliovanyy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
