@@ -1,5 +1,5 @@
-# use this for Windows
-FROM python:3.11.6-alpine3.17
+# use this for macOS
+FROM python:3.11.6-slim
 
 LABEL authors="OleksiyM"
 
