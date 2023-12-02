@@ -1,5 +1,7 @@
-# use this for Windows
+# use this image for Windows and Linux
 FROM python:3.11.6-alpine3.17
+# use this image for macOS
+# FROM python:3.11.6-slim
 
 LABEL authors="OleksiyM"
 
